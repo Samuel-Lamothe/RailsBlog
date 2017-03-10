@@ -1,0 +1,55 @@
+/* ======= ======= ======= general ======= ======= ======= */
+html, body {
+    height: 100%;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Ariel", sans-serif;
+    border: 2px solid cadetblue;
+}
+/* ======= ======= =======  sections  ======= ======= ======= */
+#header {
+    background-color: #eee;
+}
+#yield {
+    background-color: #fff;
+}
+#footer {
+    background-color: #ddd;
+}
+.section {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid purple;
+    background-color: thistle;
+}
+/* ======= ======= =======  content  ======= ======= ======= */
+#content {
+    border: 2px solid darkorange;
+}
+#user-table, th, td {
+    text-align: left;
+    border: 1px solid darkorange;
+    border-collapse: collapse;
+}
+#user-table th, #user-table td {
+    padding: 10px;
+}
+#user-table {
+    width: 50%;
+}
+#user-table > tr > #user {
+    width: 50%;
+}
+#user-table > tr > #edit {
+    width: 20%;
+}
+#user-table > tr > #delete {
+    width: 20%;
+}
+.postrow {
+background-color: #0f93f3;
+
+}
+/* ======= ======= ======= ARCHIVE ======= ======= ======= */
+/* ======= ======= ======= ARCHIVE ======= ======= ======= */

@@ -1,0 +1,12 @@
+	    <!-- == main-menu == -->
+<div class="section">
+
+  <%= form_for @user, url: {action: 'sign_in'} do |f| %>
+    <%=  f.label :username %>
+		<%=  f.text_field :username, :value => 'Samuel' %><br> <br>
+    <%=  f.label :password %>
+		<%=  f.text_field :password, :value => '123456' %><br> <br>
+    <%=  f.submit :value => 'Login' %>
+  <% end %>
+
+</div>
